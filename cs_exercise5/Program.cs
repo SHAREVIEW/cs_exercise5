@@ -21,6 +21,6 @@ namespace cs_exercise5
             }
             Console.WriteLine("Reversed: {0}", reversedString);
             Console.ReadKey();
-        }
+        } 
     }
 }
