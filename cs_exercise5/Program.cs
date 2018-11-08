@@ -15,9 +15,10 @@ namespace cs_exercise5
             Console.WriteLine("Enter a string:");
             string myString = Console.ReadLine();
             string reversedString = "";
-            for (int index = myString.Length - 1; index >= 0; index--)
+            for (int index = myString.Length - 1; index >= 0; index--) //myString++
             {
                 reversedString += myString[index];
+                
             }
             Console.WriteLine("Reversed: {0}", reversedString);
             Console.ReadKey();
